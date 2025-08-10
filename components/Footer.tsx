@@ -3,7 +3,7 @@ export default function Footer() {
     <footer className="mt-16 border-t border-white/10">
       <div className="container py-10 grid md:grid-cols-3 gap-6">
         <div>
-          <div className="font-semibold">Bjästa Förrådsuthyrning</div>
+          <div className="font-semibold">Förråds Hotel Bjästa</div>
           <p className="subtle mt-2">
             Prisvärd magasinering med generösa öppettider.
           </p>
@@ -12,13 +12,11 @@ export default function Footer() {
           <div className="font-semibold">Kontakt</div>
           <ul className="mt-2 text-sm">
             <li>
-              <a className="hover:underline" href="tel:+46735319098">
-                Telefon: 073-531 90 98
-              </a>
-            </li>
-            <li>
-              <a className="hover:underline" href="mailto:mandus85@hotmail.com">
-                E-post: mandus85@hotmail.com
+              <a
+                className="hover:underline"
+                href="mailto:forradshotelbjasta@hotmail.com"
+              >
+                E-post: forradshotelbjasta@hotmail.com
               </a>
             </li>
             <li>
@@ -34,7 +32,7 @@ export default function Footer() {
           </ul>
         </div>
         <div className="text-sm subtle">
-          © {new Date().getFullYear()} Bjästa Förrådsuthyrning. Alla rättigheter
+          © {new Date().getFullYear()} Förråds Hotel Bjästa. Alla rättigheter
           förbehållna.
         </div>
       </div>

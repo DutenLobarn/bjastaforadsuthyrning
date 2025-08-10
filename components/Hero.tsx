@@ -22,7 +22,7 @@ export default function Hero() {
       <div className="relative container py-14 md:py-20 grid md:grid-cols-2 gap-8 items-center">
         <div className="max-w-2xl">
           <h1 className="text-4xl md:text-5xl font-extrabold leading-tight text-white">
-            Varm förrådsuthyrning i Bjästa – tryggt, prisvärt och enkelt
+            Varmt Förråds Hotel i Bjästa – tryggt, prisvärt och enkelt
           </h1>
           <p className="mt-4 text-lg text-white/90">
             Tillgång <strong>alla dagar 7–22</strong>. Du låser med eget

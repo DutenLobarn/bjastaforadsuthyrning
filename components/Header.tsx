@@ -5,11 +5,11 @@ export default function Header() {
         <div className="flex items-center gap-3">
           <img
             src="/logo.png"
-            alt="Bjästa Förrådsuthyrning"
+            alt="Förråds Hotel Bjästa"
             className="h-10 w-auto rounded-lg"
           />
           <span className="font-semibold tracking-tight">
-            Bjästa Förrådsuthyrning
+            Förråds Hotel Bjästa
           </span>
         </div>
 
@@ -20,18 +20,12 @@ export default function Header() {
           <a href="#fragor" className="hover:text-white">
             FAQ
           </a>
-          <a href="#kontakt" className="hover:text-white">
-            Kontakt
-          </a>
           <a href="#villkor" className="hover:text-white">
             Villkor
           </a>
         </nav>
-        <a
-          href="tel:+46735319098"
-          className="btn btn-primary text-white text-sm"
-        >
-          Ring 073-531 90 98
+        <a href="#kontakt" className="btn btn-primary text-white text-sm">
+          Kontakt
         </a>
       </div>
     </header>

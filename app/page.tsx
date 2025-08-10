@@ -17,16 +17,13 @@ export default function Page() {
       <section id="kontakt" className="container py-12 scroll-mt-[72px]">
         <h2 className="section-h">Kontakta oss</h2>
         <p className="subtle mt-2">
-          Ring eller maila – eller fyll i formuläret så återkommer vi.
+          Skicka ett mail eller fyll i formuläret – vi svarar så snart vi kan.
         </p>
         <div className="mt-6 grid md:grid-cols-2 gap-6">
           <div className="card p-6">
             <div className="grid gap-2">
-              <a className="btn btn-primary text-white" href="tel:+46735319098">
-                Ring 073-531 90 98
-              </a>
-              <a className="btn" href="mailto:mandus85@hotmail.com">
-                Maila mandus85@hotmail.com
+              <a className="btn" href="mailto:forradshotelbjasta@hotmail.com">
+                Maila forradshotelbjasta@hotmail.com
               </a>
               <a
                 className="btn"

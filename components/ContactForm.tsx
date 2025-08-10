@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-const TO_EMAIL = "mandus85@hotmail.com"; // <-- ändra om behövs
+const TO_EMAIL = "forradshotelbjasta@hotmail.com"; // <-- ändra om behövs
 
 export default function ContactForm() {
   const [loading, setLoading] = useState(false);
